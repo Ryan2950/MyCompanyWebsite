@@ -1,0 +1,71 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+.navlinks{
+    background-color: darkolivegreen;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+li{
+    padding: 16px;
+    border-bottom: 1px solid black;
+}
+
+li:hover {
+    background-color: black;
+}
+
+.imagebanner {
+    background-image: url("Images/Yes.jpg");
+    padding: 500px 0;
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.introduction {
+    text-align: center;
+    color: gray;
+    font-size: 1.5rem;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+
+.ourgames{
+    text-align: center;
+    margin: 32px;
+    padding: 500px ;
+}
+
+@media screen and (min-width: 700px) {
+    ul {
+        text-align: right;
+    }
+
+    li {
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid black;
+    }
+    
+    .game {
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+}
